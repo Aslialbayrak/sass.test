@@ -69,10 +69,12 @@ main{
         padding: 20px;
         margin:1em auto;
         border-radius: $borders;
-        box-shadow: 0 10px 30px rgba(0,0,0,.2);
+        box-shadow: 0 10px 30px #00000033;
         width:80%;
 
+
         @include desktop{
+
             grid-area: card;
             height:fit-content;
             align-self: center;
